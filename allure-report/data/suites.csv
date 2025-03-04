@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2175","User should be able to login","chromium","Sun Mar 02 14:14:10 GMT+07:00 2025","passed","Sun Mar 02 14:14:12 GMT+07:00 2025","Login test","smoke\login.spec.js","",""
+"","4346","should show Page Object Model article 1","chromium","Sun Mar 02 14:14:05 GMT+07:00 2025","passed","Sun Mar 02 14:14:10 GMT+07:00 2025","two tests","smoke\example.spec.js","",""
+"","18649","should show Page Object Model article 2","chromium","Sun Mar 02 14:14:06 GMT+07:00 2025","passed","Sun Mar 02 14:14:24 GMT+07:00 2025","two tests","smoke\example.spec.js","",""
