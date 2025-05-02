@@ -1,5 +1,0 @@
-🚀 Before All: Setup test environment
-🔄 Before Each: Navigating to the login page
-2-Test demo login success 
-✅ After Each: Test execution completed
-🧹 After All: Cleanup test environment

@@ -2,8 +2,8 @@
 // const { LoginPage } = require('../../pages/login/loginPage');
 // const { beforeEach } = require('node:test');
 
-// test.describe('Login test',{
-//     tag: '@smoke',
+// test.describe('3D Component',{
+//     tag: '@regression',
 // }, () => {
 
 //     test.beforeAll(async ({ browser }) => {
@@ -24,22 +24,14 @@
 //     });
 
 
-//     test('User should be able to login 1', { tag: '@LGN001' }, async ({ page }) => {
+//     test('Visual testing', { tag: '@VS001' }, async ({ page }) => {
 //         const loginPage = new LoginPage(page);
-//         // await loginPage.goto();
-//         // await loginPage.login(process.env.USERNAME, process.env.PASSWORD);
+//         console.log("Login success using auth setup")
 //         // await loginPage.verifyLoginSuccess();
-//         console.log("1- Test demo login success")
-//         await loginPage.verifyLoginSuccess();
+//         await loginPage.login(process.env.USERNAME, process.env.PASSWORD);
+//         // await expect(page).toHaveScreenshot('landing.png');
+//         expect(await page.screenshot()).toMatchSnapshot('landing1.png');
 
 //     });
 
-//     test('User should be able to login 2', { tag: '@LGN002' }, async ({ page }) => {
-//         const loginPage = new LoginPage(page);
-//         // await loginPage.goto();
-//         // await loginPage.login(process.env.USERNAME, process.env.PASSWORD);
-//         console.log("2-Test demo login success ")
-//         await loginPage.verifyLoginSuccess();
-
-//     });
 // });
